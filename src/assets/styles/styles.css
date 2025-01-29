@@ -316,6 +316,12 @@ button:focus {
   color: var(--primary-color) !important;
 }
 
+@media (max-width: 425px) {
+  .home-header {
+    margin-bottom: 140px;
+  }
+}
+
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
